@@ -4,12 +4,12 @@ _Looking for a shareable component template? Go here --> [sveltejs/component-tem
 
 # svelte app
 
-This is a project template for [Svelte](https://svelte.dev) apps with typescript. It lives at TODO.
+This is a project template for [Svelte](https://svelte.dev) apps with typescript. It lives at https://github.com/dummdidumm/template.
 
 To create a new project based on this template using [degit](https://github.com/Rich-Harris/degit):
 
 ```bash
-npx degit sveltejs/TODO svelte-typescript-app
+npx degit dummdidumm/template svelte-typescript-app
 cd svelte-typescript-app
 ```
 
