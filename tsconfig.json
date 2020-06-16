@@ -1,0 +1,8 @@
+{
+  "include": ["src/**/*"],
+  "exclude": ["node_modules/*", "__sapper__/*", "public/*"],
+  "compilerOptions": {
+    "target": "es2017",
+    "types": ["svelte"]
+  }
+}

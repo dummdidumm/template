@@ -1,8 +1,5 @@
 <script lang="ts">
-  import { Stuff } from "./stuff";
-
   export let name: string;
-  const stuff = new Stuff("more stuff");
 </script>
 
 <style>
@@ -34,5 +31,4 @@
     <a href="https://svelte.dev/tutorial">Svelte tutorial</a>
     to learn how to build Svelte apps.
   </p>
-  <p>{stuff.moreStuff}</p>
 </main>

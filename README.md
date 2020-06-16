@@ -57,6 +57,7 @@ If you're building a single-page app (SPA) with multiple routes, sirv needs to b
 ## Differences to the javascript version
 
 - Following npm packages are added: `svelte-preprocess typescript tslib @rollup/plugin-typescript`
+- A `tsconfig.json` is added
 - `rollup.config.js` is enhanced:
 
 ```js
@@ -76,10 +77,6 @@ import typescript from '@rollup/plugin-typescript';
     typescript(), // <-- added below commonjs
     // ...
 ```
-
-## Caveats:
-
-- entry file (`main.js`) has still to be a javascript file
 
 ## Deploying to the web
 
